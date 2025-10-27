@@ -1,19 +1,31 @@
-# Python
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-env/
-venv/
-.venv/
+.Python
 
-# Node (if any)
-node_modules/
+# Environment variables
 
-# Environment
-.env
-*.env
+# IDE
+.idea/
+*.swp
+*.swo
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# MongoDB
+data/
+/db/
+config.bat
+node_modules
