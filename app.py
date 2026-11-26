@@ -1,4 +1,3 @@
-import utils.session
 from fastapi import FastAPI
 from routes.flights import router as flights_router
 from routes.pricesnapshot import router as prices_router
